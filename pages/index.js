@@ -43,7 +43,7 @@ export default function Home({ pokemones, minimimosDatos, tipos, notFound }) {
       <div className={HomeCss.container}>
         <div className={HomeCss.filtros}>
           <button className={`${HomeCss.botonFiltro} ${HomeCss.botonTodos}`} onClick={() => filtrar("borrar")}>
-            See all
+            Ver todos
           </button>
           <div className={HomeCss.botones}>
             {
