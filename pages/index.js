@@ -43,7 +43,7 @@ export default function Home({ pokemones, minimimosDatos, tipos, notFound }) {
       <div className={HomeCss.container}>
         <div className={HomeCss.filtros}>
           <button className={`${HomeCss.botonFiltro} ${HomeCss.botonTodos}`} onClick={() => filtrar("borrar")}>
-            Ver todos
+            See all Poke
           </button>
           <div className={HomeCss.botones}>
             {
@@ -93,7 +93,7 @@ export default function Home({ pokemones, minimimosDatos, tipos, notFound }) {
                           })}
                         </div>
                       </div>
-                      <img
+                      <Image
                         src={pokemon.sprites}
                         alt={pokemon.name}
                         width={100}
